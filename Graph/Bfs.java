@@ -1,3 +1,5 @@
+Graph Traversing using Breadth First Search
+NOTE:NOTE: FOR LOOP: we use just because if it is a disconnected graph
 
     public ArrayList<Integer> bfs(int v,ArrayList<ArrayList<Integer>> adj){
         ArrayList<Integer> ans = new ArrayList<>();
