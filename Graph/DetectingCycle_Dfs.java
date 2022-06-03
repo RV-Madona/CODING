@@ -1,4 +1,11 @@
- public boolean isCycleDfs(int node,int parent,boolean[] vis,ArrayList<ArrayList<Integer>> adj){
+Detecting cycle in a Undirected Graph
+NOTE:FOR LOOP: if a graph have components
+
+TC: O(N+E)
+SC: O(N+E)+ O(N) +O(N)
+ 
+ 
+public boolean isCycleDfs(int node,int parent,boolean[] vis,ArrayList<ArrayList<Integer>> adj){
         vis[node]=true;
         for(Integer av: adj.get(node)){
             if(!vis[av]){
