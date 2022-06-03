@@ -1,3 +1,7 @@
+Graph Traversing using Depth First Search
+NOTE:FOR LOOP: we use just because if it is a disconnected graph
+
+
 public void dfs_recur(int i,boolean[] vis,ArrayList<Integer> ans,ArrayList<ArrayList<Integer>> adj){
         ans.add(i);
         vis[i]=true;
