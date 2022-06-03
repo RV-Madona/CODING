@@ -1,4 +1,8 @@
- public boolean isCycle(int s,boolean[] vis,ArrayList<ArrayList<Integer>> ans){
+Detecting cycle in Undirected Graph
+NOTE:FOR LOOP:using for loop if it is disconnected graph
+
+
+public boolean isCycle(int s,boolean[] vis,ArrayList<ArrayList<Integer>> ans){
         Queue<Node> q = new LinkedList<>();
         q.add(new Node(s,-1));
         vis[s]=true;
